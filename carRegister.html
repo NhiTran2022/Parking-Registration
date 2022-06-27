@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parking Registration</title>
+</head>
+
+<body>
+  <h1>Parking Registration!</h1>
+  <form action="/Users/nhitran/Desktop/ColtSteel_FrontEnd/Car Registration/RegisterSuccess.html" method="post">
+    <div>
+      <label for="first">First Name</label>
+      <input type="text" name="first" id="first" value="" size="20" required>
+      <label for="last">Last Name</label>
+      <input type="text" name="last" id="last" value="" size="20" required>
+    </div>
+    <div>
+      <p>Select a Parking:</p>
+      <input type="radio" name="park" value="A" id="A">
+      <label for="A">Zone A</label><br>
+      <input type="radio" name="park" value="B" id="B">
+      <label for="B">Zone B</label><br>
+      <input type="radio" name="park" value="C" id="C">
+      <label for="C">Zone C</label><br>
+      <input type="radio" name="park" value="garage" id="garage">
+      <label for="garage">Garage</label>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" value="" required>
+      <label for="pass">Password</label>
+      <input type="password" name="pass" id="pass" value="" required>
+    </div>
+    <div <label for="hour">How many hours you want to park?</label>
+      <select name="hour" id="hour">
+        <option value="3 hours">0-3 hours</option>
+        <option value="Half day">0-12 hours</option>
+        <option value="Allday">0-24 hours</option>
+      </select>
+    </div>
+    <div>
+      <button type="submit" name="button">Register!</button>
+    </div>
+  </form>
+
+</body>
+
+</html>
